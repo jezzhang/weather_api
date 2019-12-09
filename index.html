@@ -47,7 +47,7 @@
 
 			var YourWeatherAppID = "57f6085d7cbeae17e4c0c2374f789407"
 
-			let query = "http://api.openweathermap.org/data/2.5/weather?q=" + location + "&units=" + units + "&APPID=" +YourWeatherAppID;
+			let query = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&units=" + units + "&APPID=" +YourWeatherAppID;
 	        console.log("Query is :" + query)
 
 	        $.getJSON(query,function(json){
